@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Moje vizitka</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="web soutez css.css">
+  <link rel="stylesheet" href="web soutez javascript.js">
+</head>
+<body>
+  <header>
+    <h1>Moje vizitka</h1>
+    <nav>
+      <a href="#about">O mně</a>
+      <a href="#skills">Dovednosti</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>O mně</h2>
+    <p>Jmenuji se Antonín Petružálek a tvořím jednoduché weby.</p>
+  </section>
+  <section id="skills">
+    <h2>Dovednosti</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <form id="form">
+      <input type="text" placeholder="Jméno" required>
+      <input type="email" placeholder="E-mail" required>
+      <textarea placeholder="Zpráva" required></textarea>
+      <button type="submit">Odeslat</button>
+      <p id="status"></p>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

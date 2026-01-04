@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #22c55e; /* jednoduché zelené pozadí */
+  color: #000;
+}
+header {
+  background: #16a34a;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 5px 0;
+}
+form {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+button {
+  padding: 10px;
+  background: #15803d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #16a34a;
+}
